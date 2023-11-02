@@ -37,7 +37,7 @@ function Header({}: Props) {
             bgColor='transparent'
              />
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
-            <p>le vrai</p>
+            <p>le vrai !!</p>
         </div>
     </div>
 
