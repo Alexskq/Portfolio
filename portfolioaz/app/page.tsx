@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import WorkExperience from '@/components/WorkExperience'
 
 import { Metadata } from 'next'
  
@@ -27,6 +28,9 @@ export default function Home() {
         </section>
 
         {/* Experience */}
+        <section>
+          <WorkExperience />
+        </section>
 
         {/* Skills */}
 
