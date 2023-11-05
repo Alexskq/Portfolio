@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import WorkExperience from '@/components/WorkExperience'
+import Skills from  '@/components/Skills'
 
 import { Metadata } from 'next'
  
@@ -33,6 +34,10 @@ export default function Home() {
         </section>
 
         {/* Skills */}
+        <section id='skills' className='snap-start'>
+          <Skills />
+
+        </section>
 
         {/* Projects */}
 
