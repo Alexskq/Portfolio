@@ -5,6 +5,8 @@ import WorkExperience from '@/components/WorkExperience'
 import Skills from  '@/components/Skills'
 import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
+import Link from 'next/link'
+import Image from 'next/image'
 
 import { Metadata } from 'next'
  
@@ -50,6 +52,20 @@ export default function Home() {
         <section id='contact' className='snap-start'>
           <ContactMe />
         </section>
+
+        <Link href="#hero">
+          <footer className='sticky bottom-5 w-full cursor-pointer'>
+            <div className='flex items-center justify-center'>
+              <Image
+                alt="footer"
+                src="/profil picture.jpg"
+                width={400}
+                height={400}
+                className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0'
+              />
+            </div>
+          </footer>
+        </Link>
     </div>
   )
 }
