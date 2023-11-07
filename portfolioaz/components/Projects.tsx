@@ -41,6 +41,16 @@ function Projects({}: Props) {
                         UPS clone
                     </h4>
 
+                    <div className='flex items-center space-x-2 justify-center'>
+                        <Image
+                            className=' h-10 w-10'
+                            src="/React Logo.png"
+                            alt='tech use'
+                            width={40}
+                            height={30}
+                        />
+                    </div>
+
                     <p className='text-lg text-center md:text-left'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, placeat, aut dignissimos sunt perferendis sequi commodi tempore suscipit adipisci ipsam autem. Quos dolor voluptatem minus earum cumque officia perspiciatis suscipit.
                     </p>

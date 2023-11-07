@@ -7,8 +7,24 @@ import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
 import Link from 'next/link'
 import Image from 'next/image'
+// import type { GetStaticProps } from 'next'
+// import { Experience, PageInfo, Project, Skill, Social } from "../typings"
+// import { fetchExperiences } from '@/utils/fetchExperiences'
+// import { fetchPageInfos } from '@/utils/fetchPageInfo'
+// import { fetchProjects } from '@/utils/fetchProjects'
+// import { fetchSkills } from '@/utils/fetchSkills'
+// import { fetchSocials } from '@/utils/fetchSocials'
 
 import { Metadata } from 'next'
+
+
+// type Props = {
+//   pageInfo: PageInfo;
+//   experiences: Experience[];
+//   skills: Skill[];
+//   projects: Project[];
+//   socials: Social[];
+// }
  
 export const metadata: Metadata = {
   title: 'Alex Portfolio',
@@ -69,3 +85,21 @@ export default function Home() {
     </div>
   )
 }
+
+// export const getStaticProps: GetStaticProps<Props> = async () => {
+//   const pageInfo: PageInfo = await fetchPageInfos();
+//   const experiences: Experience[] = await fetchExperiences();
+//   const skills: Skill[] = await fetchSkills();
+//   const projects: Project[] = await fetchProjects();
+//   const socials: Social[]  = await fetchSocials();  
+
+//   return {
+//     props: {
+//       pageInfo,
+//       experiences,
+//       skills,
+//       projects,
+//       socials
+//     }
+//   }
+// }
